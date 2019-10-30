@@ -11,11 +11,9 @@ h1 {
 }
 
 section > div{
-    margin-left: 10px;
     background-color: lightgrey;
     border: solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px;
 }   
 
 section > div > div{

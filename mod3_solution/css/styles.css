@@ -1,0 +1,90 @@
+body {
+    font-size: 16px;
+   
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: lightgrey;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  button {
+    position: absolute;
+    margin-top: 0;
+  }
+ 
+  .navbar-brand {
+    padding-top: 15px;
+  }
+  .navbar-brand h1 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+   
+  #nav-list a {
+    color: black;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: whitesmoke;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+  }
+  
+  h2{
+      font-weight: bold;
+  }      
+  
+  section#main-content{
+      width: 90%;
+      margin-right: auto ;
+      margin-left: auto;
+  }
+  
+  section#main-content p{
+      background-color: lightgrey;
+      height: 1200px;
+  }
+ 
+  
+ 
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+   
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+      height: 20px;
+    }
+  
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+
+
+  
+  
+ 
